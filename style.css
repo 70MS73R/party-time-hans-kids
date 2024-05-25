@@ -41,8 +41,8 @@ body {
   font-size: 16px;
   cursor: pointer;
   position: fixed; /* Fixed positioning */
-  bottom: 135px; /* Align to the bottom of the page */
-  left: 41%; /* Position 25% from the left side */
+  bottom: 170px; /* Align to the bottom of the page */
+  left: 50%; /* Position 25% from the left side */
   transform: translateX(
     -50%
   ); /* Center the button horizontally relative to the left 25% position */
