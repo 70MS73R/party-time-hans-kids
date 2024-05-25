@@ -67,7 +67,7 @@ body {
   max-height: 80% 
   cursor: pointer;
   position: fixed; /* Fixed positioning */
-  bottom: 80px; /* Align to the bottom of the page */
+  bottom: 170px; /* Align to the bottom of the page */
   left: 50%; /* Position 25% from the left side */
   transform: translateX(
     -50%
