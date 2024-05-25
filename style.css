@@ -47,7 +47,7 @@ body {
 @media (max-width: 768px) {
   .linkImage img {
     width: 90%; /* Adjust the width of the image for smaller screens */
-    top: 45%;
+    top: 43%;
   }
   
   .weather {
