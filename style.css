@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #313131;
+  background-image: url("./images/Artboard\ 3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+}
+
+.linkImage {
+  position: relative; /* Make the container position relative for absolute positioning */
+  height: 100vh; /* Set the height of the container to fill the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkImage img {
+  width: 30%; /* Set the width of the image as a percentage */
+  height: auto; /* Let the height adjust proportionally */
+  position: absolute; /* Position the image absolutely */
+  top: 62%; /* Position the image vertically in the middle */
+  left: 50%; /* Position the image horizontally in the middle */
+  transform: translate(-50%, -50%); /* Center the image */
+}
+.weather {
+  background-color: #4caf50; /* Green */
+  z-index: 1000; /* High z-index to ensure it is in the foreground */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  position: fixed; /* Fixed positioning */
+  bottom: 72px; /* Align to the bottom of the page */
+  left: 41%; /* Position 25% from the left side */
+  transform: translateX(
+    -50%
+  ); /* Center the button horizontally relative to the left 25% position */
+}
+@media (max-width: 768px) {
+  .linkImage img {
+    width: 90%; /* Adjust the width of the image for smaller screens */
+    top: 60%;
+  }
+}
