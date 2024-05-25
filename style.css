@@ -21,7 +21,7 @@ body {
   width: 30%; /* Set the width of the image as a percentage */
   height: auto; /* Let the height adjust proportionally */
   position: absolute; /* Position the image absolutely */
-  top: 47%; /* Position the image vertically in the middle */
+  top: 40%; /* Position the image vertically in the middle */
   left: 50%; /* Position the image horizontally in the middle */
   transform: translate(-50%, -50%); /* Center the image */
 }
@@ -37,7 +37,7 @@ body {
   font-size: 16px;
   cursor: pointer;
   position: fixed; /* Fixed positioning */
-  bottom: 120px; /* Align to the bottom of the page */
+  bottom: 130px; /* Align to the bottom of the page */
   left: 41%; /* Position 25% from the left side */
   transform: translateX(
     -50%
