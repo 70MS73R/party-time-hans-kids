@@ -37,7 +37,7 @@ body {
   font-size: 16px;
   cursor: pointer;
   position: fixed; /* Fixed positioning */
-  bottom: 150px; /* Align to the bottom of the page */
+  bottom: 140px; /* Align to the bottom of the page */
   left: 41%; /* Position 25% from the left side */
   transform: translateX(
     -50%
