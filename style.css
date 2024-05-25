@@ -63,7 +63,8 @@ body {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 8px;
+  max-height: 80% 
   cursor: pointer;
   position: fixed; /* Fixed positioning */
   bottom: 40px; /* Align to the bottom of the page */
