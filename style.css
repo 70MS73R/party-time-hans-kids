@@ -50,7 +50,7 @@ body {
   }
   
   .weather {
-  background-color: #4caf50; /* Green */
+  background-color: #666666; /* hans */
   z-index: 1000; /* High z-index to ensure it is in the foreground */
   border: none;
   color: white;
