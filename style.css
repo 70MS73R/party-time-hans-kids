@@ -66,7 +66,7 @@ body {
   font-size: 10px;
   max-height: 80% 
   cursor: pointer;
-  position: fixed; /* Fixed positioning */
+  position: absolute; /* Fixed positioning */
   bottom: 150px; /* Align to the bottom of the page */
   left: 50%; /* Position 25% from the left side */
   transform: translateX(
